@@ -1,0 +1,7 @@
+{
+	"exit":"#exitRestoreButton > .exitIcon",
+	"text":"#forgotForm > .header",
+	"email":"#mailForgot",
+	"button":"#restoreEmailButton",
+	"footer":".link"
+}

@@ -1,0 +1,8 @@
+{
+	"header":"#form > .header",
+	"login":"#mail",
+	"pass":"#pass",
+	"enter":"#loginButton",
+	"forgot":"#forgotEmailButton",
+	"footer":".link"
+}
