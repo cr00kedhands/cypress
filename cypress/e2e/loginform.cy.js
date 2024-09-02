@@ -1,7 +1,7 @@
 describe('Проверка авторизации', function () {
 
      it('Верный логин и верный пароль', function () {
-        cy.visit('https://login.qa.studio//'); // открыть сайт
+        cy.visit('/'); // открыть сайт
         cy.get('#mail').type('german@dolnikov.ru'); //выбрать инпут логин и ввести верный логин
         cy.get('#pass').type('iLoveqastudio1'); //выбрать инпут пароль и ввести верный пароль
         cy.get('#loginButton').click(); //выбрать кнопку войти и нажать на нее
